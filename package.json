@@ -1,0 +1,25 @@
+{
+  "name": "solitary",
+  "version": "0.0.1",
+  "description": "Run untrusted code snipits in isolated processes/v8-VMs",
+  "main": "bin",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jmanero/solitary.js.git"
+  },
+  "keywords": [
+    "webhook",
+    "VM",
+    "code",
+    "isolation"
+  ],
+  "author": "John Manero <john.manero@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmanero/solitary.js/issues"
+  },
+  "homepage": "https://github.com/jmanero/solitary.js"
+}
