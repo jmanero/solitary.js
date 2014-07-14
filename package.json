@@ -2,10 +2,7 @@
   "name": "solitary",
   "version": "0.0.1",
   "description": "Run untrusted code snipits in isolated processes/v8-VMs",
-  "main": "bin",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "bin/server.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:jmanero/solitary.js.git"
