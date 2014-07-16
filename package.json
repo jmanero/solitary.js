@@ -2,18 +2,30 @@
   "name": "solitary",
   "version": "0.0.1",
   "description": "Run untrusted code snipits in isolated processes/v8-VMs",
+  "author": "John Manero <john.manero@gmail.com>",
   "main": "bin/server.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:jmanero/solitary.js.git"
+  "dependencies": {
+    "aws-sdk": "2.0.x",
+    "ejs": "1.0.x",
+    "express": "4.6.x",
+    "express-delight": "0.1.3",
+    "libuuid": "0.1.3",
+    "redis": "0.11.x",
+    "request": "2.37.x",
+    "sqlite3" : "~2.1.5",
+    "sequelize": "1.7.x",
+    "winston": "0.7.x"
   },
   "keywords": [
     "webhook",
     "VM",
-    "code",
+    "dynamic code",
     "isolation"
   ],
-  "author": "John Manero <john.manero@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jmanero/solitary.js.git"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jmanero/solitary.js/issues"
